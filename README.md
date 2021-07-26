@@ -1,2 +1,7 @@
-# HamiltonianLearning
-Accompanying code repository for the paper "On learning Hamiltonian systems from data"
+# Code for the paper "On learning Hamiltonian systems from data"
+
+See paper [here](https://pubmed.ncbi.nlm.nih.gov/31893645/), by Tom Bertalan, Felix Dietrich, Igor Mezić, and Ioannis G Kevrekidis.
+
+> Concise, accurate descriptions of physical systems through their conserved quantities abound in the natural sciences. In data science, however, current research often focuses on regression problems, without routinely incorporating additional assumptions about the system that generated the data. Here, we propose to explore a particular type of underlying structure in the data: Hamiltonian systems, where an "energy" is conserved. Given a collection of observations of such a Hamiltonian system over time, we extract phase space coordinates and a Hamiltonian function of them that acts as the generator of the system dynamics. The approach employs an autoencoder neural network component to estimate the transformation from observations to the phase space of a Hamiltonian system. An additional neural network component is used to approximate the Hamiltonian function on this constructed space, and the two components are trained jointly. As an alternative approach, we also demonstrate the use of Gaussian processes for the estimation of such a Hamiltonian. After two illustrative examples, we extract an underlying phase space as well as the generating Hamiltonian from a collection of movies of a pendulum. The approach is fully data-driven and does not assume a particular form of the Hamiltonian function.
+
+Code uploaded here is not yet complete; more will be uploaded later.
